@@ -1,0 +1,13 @@
+.box {
+  background-image: url(http://localhost:7000/public/images/bus.png);
+  box-shadow: inset 0px 0px 222 1000px rgb(5, 67, 109);
+  min-height: 100vh;
+}
+.item {
+  text-shadow: -1px 0px 1px blue, 0px 1px 1px blue, 1px 0px 1px blue,
+    0px -1px 1px blue, 0px 5px 5px black;
+}
+.item2 {
+  text-shadow: -1px 0px 1px blue, 0px 1px 1px blue, 1px 0px 1px blue,
+    0px -1px 1px blue, 0px 5px 5px black;
+}

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: Monospace;
+  line-height: 1;
+}
+.container > div {
+  display: flex;
+  margin: 2em;
+  padding: 1em;
+}
+.cardinfo > div {
+  padding: 1em;
+}
+.container {
+  border: 1px solid green;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(57, 50, 174),
+    rgb(10, 195, 252)
+  );
+}
+.img {
+  position: relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+.listdetail {
+  padding-bottom: 1em;
+}
+.details {
+  display: flex;
+}
+.typedetail {
+  font: 1em;
+  width: 50%;
+  flex: 1;
+  padding: 1em;
+  font-weight: bold;
+}
+.detail {
+  font: 1em;
+  color: rgb(100, 150, 280);
+  flex: 1;
+  padding: 1em;
+}
+.noneu {
+  text-decoration: none;
+}
+.namebar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  color: black;
+  font-size: 1.5em;
+}
+.editbtn {
+  position: absolute;
+  right: 0;
+  font-size: 1.5em;
+  border-radius: 5pt;
+  border-color: rgb(100, 150, 280);
+  background-color: rgba(177, 166, 166, 0.5);
+  cursor: pointer;
+}
+.position {
+  color: rgb(100, 150, 280);
+  font-size: 1.5em;
+}
+
+ul {
+  padding: 0px;
+  margin: 1em;
+}
+.left {
+  flex: 1;
+  padding: 1em;
+  height: auto;
+}
+.right {
+  flex: 3;
+  padding: 1em;
+  height: auto;
+}
+.normalinfo {
+  padding-bottom: 1em;
+}
+.normalinfo > div {
+  padding: 1em;
+}
+.cardinfo {
+  border-radius: 1rem;
+  background-color: white;
+  min-height: 100vh;
+}
